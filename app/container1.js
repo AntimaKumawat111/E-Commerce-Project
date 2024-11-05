@@ -28,11 +28,8 @@ export default function SubHeader() {
         <SearchIcon id="searchIcon" />
         <input placeholder="Search for products..."  id="inputbox"/>
       </div>
-    {/* <div className="rightSideIcons"> */}
-
         <ProductionQuantityLimitsIcon id="cartIcon"/>
         <PersonOutlineIcon id="profileIcon" />
-    {/* </div> */}
 
     </div>
   );
