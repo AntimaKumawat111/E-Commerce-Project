@@ -14,8 +14,184 @@
   }
 }
 
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  overflow-x: hidden;
 }
+
+
+
+.page1{
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  border: 2px solid black;
+  /* position: absolute; */
+  z-index: 0;
+}
+
+.header{
+  color: white;
+  width: 100vw;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-weight: 300;
+  font-size: small;
+  /* position: relative; */
+  z-index: 1;
+
+}
+
+.sub-header {
+  color: white;
+  width:100vw;
+  height: 80px;
+  top: -738px;
+  gap: 40px;
+  border: 2px solid brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-weight: 300;
+  font-size: small;
+  position: relative;
+}
+
+.box{
+  position: absolute;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+  width: 700px;
+  gap: 24px;
+}
+
+#shop{
+  width: 160px;
+  height: 35px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+
+.ancherTag{
+  /* width: 351px; */
+  height: 22px;
+  /* gap: 24px; */
+}
+
+#shopTag{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#downArrow{
+  margin-right: 8px;
+ 
+}
+
+.ancherTag .tags{
+  /* border: 2px solid black; */
+  margin: 8px;
+  width: 50px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  /* background-color: beige; */
+}
+
+.inputdiv{
+  width: 600px;
+  height: 48px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F0F0F0;
+  color: black;
+  font-weight: 200;
+  border-radius: 50px;
+  position: absolute;
+  left:700px;
+}
+
+#searchIcon{
+  position: absolute;
+  font-size: 30px;
+  left: 10px;
+
+}
+
+#inputbox{
+  width: 500px;
+  height: 48px;
+  background: #F0F0F0;
+  border: none;
+  outline: none;
+}
+
+#cartIcon{
+  position: absolute;
+  left: 1350px;
+  color: black;
+  font-size: 30px;
+}
+
+
+
+#profileIcon{
+  position: absolute;
+  left: 1400px;
+  color: black;
+  font-size: 36px;
+}
+
+
+
+/* 
+.page2{
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue ;
+  border: 2px solid rgba(242, 52, 52, 0.729);
+}
+
+.page3
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(112, 200, 230) ;
+  border: 2px solid rgb(111, 30, 131);
+}
+
+.page4
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(106, 120, 125) ;
+  border: 2px solid rgba(55, 242, 52, 0.832);
+}
+
+
+.page5
+{
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue ;
+  border: 2px solid rgb(242, 52, 52);
+} */
