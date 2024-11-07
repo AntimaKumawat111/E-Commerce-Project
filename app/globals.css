@@ -50,7 +50,7 @@ body {
   font-size: small;
   z-index: 1;
 }
-
+/* 
 .sub-header {
   color: white;
   width: 100vw;
@@ -106,7 +106,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;
-}
+} */
 
 #cartIcon {
   position: absolute;
