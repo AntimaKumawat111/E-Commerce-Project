@@ -108,12 +108,8 @@ export default function Home() {
   );
 }
 
-
-
-
-
 // {
-  /* <Logo
+/* <Logo
  id={"secondshirtImg"}
  frameNo={Frame2}
  alternative={"frame2"}

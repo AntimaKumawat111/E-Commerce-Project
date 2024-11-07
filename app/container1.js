@@ -9,28 +9,19 @@ export default function SubHeader() {
       <div className="box">
         <h1 id="shop">SHOP.CO</h1>
         <div className="ancherTag">
-          <a href="#" className="tags" id='shopTag'>
-            Shop
-          </a>
+          <a href="#" className="tags" id="shopTag">Shop</a>
           <KeyboardArrowDownIcon id="downArrow" />
-          <a href="#" className="tags">
-            On Sale
-          </a>
-          <a href="#" className="tags">
-            New Arrivals
-          </a>
-          <a href="#" className="tags">
-            Brands
-          </a>
+          <a href="#" className="tags">On Sale</a>
+          <a href="#" className="tags">New Arrivals</a>
+          <a href="#" className="tags">Brands</a>
         </div>
       </div>
       <div className="inputdiv">
         <SearchIcon id="searchIcon" />
-        <input placeholder="Search for products..."  id="inputbox"/>
+        <input placeholder="Search for products..." id="inputbox" />
       </div>
-        <ProductionQuantityLimitsIcon id="cartIcon"/>
-        <PersonOutlineIcon id="profileIcon" />
-
+      <ProductionQuantityLimitsIcon id="cartIcon" />
+      <PersonOutlineIcon id="profileIcon" />
     </div>
   );
 }
