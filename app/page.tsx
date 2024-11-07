@@ -43,7 +43,7 @@ export default function Home() {
           <Image src={Vector2} alt="Vector" id="vector2" />
         </div>
 
-        <div className="page2">
+        {/* <div className="page2">
           <div className="logos">
             <Image
               src={versace}
@@ -102,7 +102,7 @@ export default function Home() {
             />
             <button id="viewBtn">View All</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
