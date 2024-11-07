@@ -1,19 +1,33 @@
 import Image from "next/image";
 import Header from "./header";
 import SubHeader from "./container1";
-import Rectangle2 from "../public/images/Rectangle2.png"
+import Rectangle2 from "../public/images/Rectangle2.png";
 import Vector from "../public/images/Vector.png";
 import Vector2 from "../public/images/Vector2.png";
 import versace from "../public/images/versace.png";
- import Zara from "../public/images/zara.png";
+import Zara from "../public/images/zara.png";
 import Gucci from "../public/images/gucci.png";
 import Prada from "../public/images/prada.png";
 import CalvinKlein from "../public/images/calvinKlein.png";
 import MainContainer from "./posterLeftContainer";
 import Btn from "./Butn";
-import Logo from "./page2nd.js/logos";
 
-import Frame1 from "../public/images/frame1.png";
+function Photo({ cardNo, id, imagesrc, pvalue, rate }: any) {
+  return (
+    <div className="cards" id={cardNo}>
+      <div className="card">
+        <img src={imagesrc} alt="product" className="card_img" id={id} />
+        <div className="card_info">
+          <a href="" target="_blank">
+            <p id="ptitle">{pvalue}</p>
+            <p id="pstars">stars</p>
+            <p id="prate">${rate}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   return (
@@ -47,19 +61,46 @@ export default function Home() {
               className="logo"
             />
             <h1 id="newArrivals">NEW ARRIVALS</h1>
-            <Logo
+
+            <Photo
+              cardNo="one"
               id="firshirtImg"
-              frameNo={Frame1} // Use Frame1 variable directly
-              alternative="frame1"
-              style={{
-                height: "100%",
-                width: "100%",
-                zIndex: "4",
-                border: "2px solid black",
-                backgroundColor: "white",
-                opacity: "1",
-              }}
+              imagesrc="/images/frame1.png"
+              title="First Image"
+              sname="first"
+              pvalue="T-SHIRT WITH TAPE DETAILS"
+              rate="120"
             />
+
+            <Photo
+              cardNo="second"
+              id="secondshirtImg"
+              imagesrc="/images/frame2.png"
+              title="First Image"
+              sname="first"
+              pvalue="SKINNY FIT JEANS"
+              rate="240"
+            />
+
+            <Photo
+              cardNo="third"
+              id="thirdshirtImg"
+              imagesrc="/images/frame3.png"
+              title="First Image"
+              sname="first"
+              pvalue="CHECKERED SHIRT"
+              rate="180"
+            />
+            <Photo
+              cardNo="fourth"
+              id="fourthshirtImg"
+              imagesrc="/images/frame4.png"
+              title="First Image"
+              sname="first"
+              pvalue="SLEEVE STRIPED T-SHIRT"
+              rate="130"
+            />
+            <button id="viewBtn">View All</button>
           </div>
         </div>
       </div>
@@ -67,7 +108,11 @@ export default function Home() {
   );
 }
 
-{
+
+
+
+
+// {
   /* <Logo
  id={"secondshirtImg"}
  frameNo={Frame2}
@@ -83,7 +128,7 @@ export default function Home() {
  frameNo={Frame4}
  alternative={"frame4"}
 /> */
-}
+// }
 
 // <div className="page3">
 //   <h1>Hello world</h1>

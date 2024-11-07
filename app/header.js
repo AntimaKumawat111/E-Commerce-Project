@@ -1,4 +1,4 @@
-export default function Header() {
+function Header() {
   return (
     <>
       <div className="page1">
@@ -9,3 +9,5 @@ export default function Header() {
     </>
   );
 }
+
+export default Header;

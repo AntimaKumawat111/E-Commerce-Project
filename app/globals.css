@@ -162,7 +162,7 @@ body {
   position: absolute;
   z-index: 2;
   top: 230px;
-  left: 130px;
+  left: 100px;
   color: black;
   font-size: 55px;
   font-weight: 900;
@@ -182,7 +182,7 @@ body {
   width: 490px;
   height: auto;
   top: 442px;
-  left: 130px;
+  left: 100px;
   font-weight: 100;
   font-size: 14px;
   border: 2px solid black;
@@ -204,7 +204,7 @@ body {
   width: 210px;
   height: 52px;
   top: 507px;
-  left: 130px;
+  left: 100px;
   border-radius: 62px;
   z-index: 2;
   background-color: black;
@@ -221,7 +221,7 @@ body {
   width: 596px;
   height: 74px;
   top: 607px;
-  left: 130px;
+  left: 100px;
   z-index: 2;
   color: black;
   display: flex;
@@ -320,7 +320,7 @@ body {
 .page2 {
   height: 100vh;
   width: 100%;
-  background-color: lightblue;
+  background-color: white;
   border: 2px solid rgba(242, 52, 52, 0.729);
   z-index: 0;
 }
@@ -342,7 +342,7 @@ body {
   top: 41px;
   left: 100px;
   border: 1px solid white;
-  left: 130px;
+  left: 100px;
   padding: 0.01px 0px 0.01px 0px;
 }
 
@@ -403,91 +403,106 @@ body {
   border: 1px solid black;
   line-height: 57.6px;
   /* padding: 10px; */
+}
 
+#one {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  height: 380px;
+  width: 298px;
+  display: inline-block;
 }
 
 #firshirtImg {
-  position: absolute;
-  width: 265px;
-  height: 300px;
-  top: 324px;
-  left: 130px;
-  gap: 0px;
-  border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
-  z-index: 1;
-  background-color: red;
-  border-radius: 18px;
-
+  width: 100%;
+  height: auto;
 }
 
-#secondshirtImg{
+#second {
   position: absolute;
-  width: 265px;
-  height: 300px;
-  top: 324px;
-  left: 480px;
-  gap: 0px;
-  border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
-  z-index: 1;
-  background-color: brown;
-  border-radius: 18px;
-
+  top: 300px;
+  left: 445px;
+  height: 380px;
+  width: 298px;
+  display: inline-block;
 }
 
-#thirdshirtImg{
+#secondshirtImg {
+  width: 100%;
+  height: auto;
+}
+
+#third {
   position: absolute;
-  width: 265px;
-  height: 300px;
-  top: 324px;
-  left: 830px;
-  gap: 0px;
-  border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
-  z-index: 1;
-  background-color: brown;
-  border-radius: 18px;
+  top: 300px;
+  left: 790px;
+  height: 380px;
+  width: 298px;
+  display: inline-block;
+}
+
+#thirdshirtImg {
+  width: 100%;
+  height: auto;
+}
+
+#fourth {
+  position: absolute;
+  top: 300px;
+  left: 1135px;
+  height: 380px;
+  width: 298px;
+  display: inline-block;
+}
+
+#fourthshirtImg {
+  width: 100%;
+  height: auto;
+}
+
+#ptitle {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+ #prate {
+  color: black;
+  width: 55px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: 700;
+  gap: 10px;
+  border: 2px solid black;
+}
+
+#viewBtn{
+width: 218px;
+height: 52px;
+
+  background-color: #f0f0f0;
+  color: black;
+  padding-top: 13px ;
+  padding-bottom: 16px ;
+  padding-right: 54px;
+  padding-left: 54px;
+  position: absolute;
+  bottom:-650px;
+  left: 611px;
+  border-radius: 62px;
+  gap: 12px;
+  /* border: 1px solid black; */
+  outline: 0.2px solid black;
+  font-size: 20px;
 }
 
 
-#fourthshirtImg{
-  position: absolute;
-  width: 265px;
-  height: 300px;
-  top: 324px;
-  left: 1180px;
-  gap: 0px;
-  border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
-  z-index: 1;
-  background-color: rgb(251, 195, 195);
-  border-radius: 18px;
-  border:  8px solid black;
 
 
-}
-
-.photos{
-  position: absolute;
-  width: 215px;
-  height: 250px;
-  top: 25px;
-  left: 25px;
-  gap: 0px;
-  border-radius: 20px 0px 0px 0px;
-  opacity: 0px;
-  z-index: 1;
-  background-color: beige;
-  border-radius: 18px;
-  border:  8px solid black;
-
-}
-
-
-
-/* 
-.page3
+/* .page3
 {
   height: 100vh;
   width: 100%;
@@ -510,4 +525,4 @@ body {
   width: 100%;
   background-color: lightblue ;
   border: 2px solid rgb(242, 52, 52);
-}  */
+}   */

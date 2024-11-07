@@ -1,5 +1,6 @@
-export default function MainContainer() {
+function MainContainer() {
   return (
+    <>
     <div className="leftContainer">
       <h1 id="findBox">FIND CLOTHS THAT MATCHES YOUR STYLE </h1>
       <h5 id="browsebox">
@@ -27,5 +28,9 @@ export default function MainContainer() {
         </div>
       </div>
     </div>
+    </>
+
   );
 }
+
+export default MainContainer;
